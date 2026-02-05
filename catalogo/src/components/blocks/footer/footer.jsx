@@ -1,6 +1,6 @@
 export default function Footer() {
   return (<>
-<div className="geral h-100"  style={{backgroundColor:"#FFFFCC", justifyContent:"center", alignItems:"center"}}>
+<div className="geral shadow"  style={{backgroundColor:"#FFFFCC", justifyContent:"center", alignItems:"center"}}>
 <div className="container">
   <footer className="d-flex flex-wrap justify-content-between align-items-center mt-5" style={{minHeight:100}}>
     <p className="col-md-4 mb-0 text-muted d-flex">© 2026 Company, Leva<p2 style={{color:"#1c8cfcff"}}>Tudo</p2></p>

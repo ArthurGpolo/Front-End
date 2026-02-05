@@ -25,9 +25,9 @@ export default function Home({id}) {
 
   return (<>
 
-    <div className="conteiner mt-5 col-8 d-flex flex-wrap" style={{ justifyContent: "center", margin: "auto", gap: "2rem" }}>
+    <div className="conteiner mt-5 col-8 d-flex flex-wrap" style={{ justifyContent: "center", margin: "auto", gap: "2.3rem" }}>
       {produtos && produtos.map((produto) => (
-        <div className="card col-6" key={produto.id} style={{ width: "18rem", justifyContent: "center" }}>
+        <div className="card shadow col-6" key={produto.id} style={{ width: "18rem", justifyContent: "center"}}>
           <img src={produto.images[0]} className="card-img-top" alt="..." />
           <div className="card-body p-3" style={{backgroundColor:"#ffffcc88"}}>
             <div className="titulo" style={{height:65}}>

@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Navbar() {
   return (<>
   <nav
-  className="navbar navbar-expand-lg rounded"
+  className="navbar navbar-expand-lg rounded shadow"
   aria-label="Thirteenth navbar example"
   style={{backgroundColor:"#FFFFCC"}}
 >
