@@ -46,7 +46,7 @@ export default function detalhes() {
                                 <h2 className="mb-3">{produto.title}</h2>
                                 <p className="text-muted mb-4">{produto.sku}</p>
                                 <div className="mb-3">
-                                    <span className="h4 me-2">{produto.price}</span>
+                                    <span className="h4 me-2"><strong>R$</strong> {produto.price}</span>
                                     <span className="text-muted">
                                         <s>{produto.discountPercentage}</s>
                                     </span>
