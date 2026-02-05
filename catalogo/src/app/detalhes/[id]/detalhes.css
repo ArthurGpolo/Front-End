@@ -1,0 +1,48 @@
+.product-image {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+    opacity: 1;
+}
+
+.image {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-fluid {
+    justify-content: center;
+    align-items: center;
+}
+
+.f {
+    justify-content: center;
+    gap: 5rem;
+}
+
+.z {
+    font-size: 20px;
+}
+
+.v {
+    text-decoration: none;
+    color: gray;
+}
+
+.v:hover {
+    color: white;
+}
